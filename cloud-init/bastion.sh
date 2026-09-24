@@ -151,6 +151,7 @@ bastion_install_desktop_packages() {
   run_apt "apt-get install -y -q --no-install-recommends \
     xfce4 \
     xfce4-terminal \
+    thunar-archive-plugin \
     dbus-x11 \
     lightdm lightdm-gtk-greeter \
     xserver-xorg-core xserver-xorg-input-all \
